@@ -58,3 +58,22 @@ p {
   content: "★";
   letter-spacing: 3px;
 }
+
+.footer {
+  display: flex;
+  font-size: 40px;
+  margin-left: 80px;
+  justify-content: space-between;
+  width: 75%;
+  position: fixed;
+  bottom: 80px;
+}
+
+button {
+  background-color: var(--main-color);
+  color: white;
+  padding: 20px 40px;
+  font-size: 30px;
+  border: none;
+  box-shadow: 10px 10px 60px 10px var(--main-color);
+}

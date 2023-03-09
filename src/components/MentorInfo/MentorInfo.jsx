@@ -6,7 +6,7 @@ import Star from "../Star/Star";
 const MentorInfoWrapper = styled.div`
   margin-top: 120px;
   width: 35%;
-  margin-left: 50px;
+  margin-left: 80px;
 `;
 
 function MentorInfo() {
@@ -14,7 +14,7 @@ function MentorInfo() {
   return (
     <MentorInfoWrapper>
       <div className="rating">{rating.toFixed(1)}</div>
-      {range(rating).map((_, index) => {
+      {range(Math.floor(rating)).map((_, index) => {
         return <Star key={index} />;
       })}
       <h1>Mentor Name</h1>
