@@ -46,7 +46,7 @@ p {
   color: var(--main-color);
 }
 
-.stars {
+.star {
   display: inline-block;
   font-size: 60px;
   font-family: Times;
@@ -54,7 +54,7 @@ p {
   color: var(--main-color);
 }
 
-.stars::before {
-  content: "★★★★★";
+.star::before {
+  content: "★";
   letter-spacing: 3px;
 }
