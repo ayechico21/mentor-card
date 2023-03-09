@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer">
-      <button>Book a Session</button>
-      <div>Mentor Name</div>
+      <button>Book a session</button>
+      <div className="mentor-name">Mentor Name</div>
     </div>
   );
 }
