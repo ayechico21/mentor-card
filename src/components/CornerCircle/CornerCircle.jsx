@@ -6,9 +6,8 @@ const Circle = styled.div`
   width: 1600px;
   height: 1600px;
   right: -200px;
-  top: -1000px;
+  top: -1100px;
   position: fixed;
-  overflow: hidden;
   border-radius: 50%;
 `;
 
