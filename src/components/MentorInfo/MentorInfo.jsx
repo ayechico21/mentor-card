@@ -1,18 +1,11 @@
 import React from "react";
-import styled from "styled-components";
 import { range } from "../../utils";
 import Star from "../Star/Star";
-
-const MentorInfoWrapper = styled.div`
-  margin-top: 120px;
-  width: 35%;
-  margin-left: 80px;
-`;
 
 function MentorInfo() {
   const rating = 5;
   return (
-    <MentorInfoWrapper>
+    <div className="mentor-info">
       <div className="rating">{rating.toFixed(1)}</div>
       {range(Math.floor(rating)).map((_, index) => {
         return <Star key={index} />;
@@ -25,7 +18,7 @@ function MentorInfo() {
         totam voluptatum distinctio quibusdam voluptatibus officia laudantium
         quis aut.
       </p>
-    </MentorInfoWrapper>
+    </div>
   );
 }
 
