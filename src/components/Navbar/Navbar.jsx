@@ -2,14 +2,12 @@ import React from "react";
 
 function handleLeftClick(setIndex) {
   setIndex((prev) => {
-    console.log(prev);
     return prev == 0 ? 4 : prev - 1;
   });
 }
 
 function handleRightClick(setIndex) {
   setIndex((prev) => {
-    console.log(prev);
     return prev == 4 ? 0 : prev + 1;
   });
 }
