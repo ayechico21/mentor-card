@@ -1,10 +1,10 @@
 import React from "react";
 
-function Footer() {
+function Footer({ name }) {
   return (
     <div className="footer">
       <button>Book a session</button>
-      <div className="mentor-name">Mentor Name</div>
+      <div className="mentor-name">{name}</div>
     </div>
   );
 }
